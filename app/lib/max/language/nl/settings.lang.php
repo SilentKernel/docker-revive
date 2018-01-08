@@ -54,10 +54,8 @@ $GLOBALS['strUpgrade'] = "Upgrade";
 
 // Global
 $GLOBALS['strChooseSection'] = "Kies sectie";
-$GLOBALS['strEditConfigNotPossible'] = "It is not possible to edit all settings because the configuration file is locked for security reasons. " .
-    "If you want to make changes, you may need to unlock the configuration file for this installation first.";
-$GLOBALS['strEditConfigPossible'] = "It is possible to edit all settings because the configuration file is not locked, but this could lead to security issues. " .
-    "If you want to secure your system, you need to lock the configuration file for this installation.";
+$GLOBALS['strEditConfigNotPossible'] = "Het is niet mogelijk om alle instellingen te bewerken omdat het configuratiebestand is vergrendeld om veiligheidsredenen. Indien u wijzigingen wil aanbrengen, moet u wellicht het configuratiebestand voor deze installatie eerst ontgrendelen.";
+$GLOBALS['strEditConfigPossible'] = "Het is mogelijk om alle instellingen te bewerken omdat het configuratiebestand niet isvergrendeld, wat tot beveiligingsproblemen zou kunnen. Indien u uw systeem wilt beveiligen, moet u het configurattiebestand van deze installatie vergrendelen.";
 $GLOBALS['strUnableToWriteConfig'] = "Wegschrijven van wijzigingen in de config file was niet mogelijk";
 $GLOBALS['strUnableToWritePrefs'] = "Wegschrijven van voorkeursinstellingen in de database was niet mogelijk";
 $GLOBALS['strImageDirLockedDetected'] = "De ingevoerde <b>Images Folder</b> is niet beschrijfbaar door de server. <br>U kunt niet verder gaan tot u ofwel de permissies van de folder heeft aangepast, of de betreffende folder heeft aangemaakt.";
@@ -185,9 +183,9 @@ $GLOBALS['strDeliveryFilenamesSinglePageCallJS'] = "Single Page Call (JavaScript
 $GLOBALS['strDeliveryCaching'] = "Instellingen voor de buffering van uitlevering van banners";
 $GLOBALS['strDeliveryCacheLimit'] = "Tijd tussen Banner Cache Updates (seconden)";
 $GLOBALS['strDeliveryCacheStore'] = "Banner Delivery Cache Store Type";
-$GLOBALS['strDeliveryAcls'] = "Evalueer banner delivery limitations tijdens uitlevering";
-$GLOBALS['strDeliveryAclsDirectSelection'] = "Evalueer banner delivery limitations tijdens uitlevering van direct geselecteerde banners";
-$GLOBALS['strDeliveryObfuscate'] = "Channel verbergen tijdens uitlevering van advertenties";
+$GLOBALS['strDeliveryAcls'] = "Evalueer uitleveringsregels van banners tijdens uitlevering";
+$GLOBALS['strDeliveryAclsDirectSelection'] = "Evalueer uitleveringsregels voor banners voor direct geselecteerde banners";
+$GLOBALS['strDeliveryObfuscate'] = "Verberg verzameling uitleveringsregels bij het aflevering van banners";
 $GLOBALS['strDeliveryExecPhp'] = "Sta toe dat PHP code in banners wordt uitgevoerd<br />(waarschuwing: veiligheidsrisico)";
 $GLOBALS['strDeliveryCtDelimiter'] = "Scheidingsteken voor derde partij Click Tracking";
 $GLOBALS['strGlobalDefaultBannerUrl'] = "Algemene standaard banner afbeeldings-URL";
@@ -205,7 +203,7 @@ $GLOBALS['defaultLanguage'] = "Standaard systeemtaal<br />(Elke gebruiker kan ee
 $GLOBALS['strGeotargetingSettings'] = "Geotargeting Instellingen";
 $GLOBALS['strGeotargeting'] = "Geotargeting Instellingen";
 $GLOBALS['strGeotargetingType'] = "Geotargeting Module Type";
-$GLOBALS['strGeoShowUnavailable'] = "Toon geotargeting uitleveringbeperkingen zelfs als GeoIP gegevens niet beschikbaar zijn";
+$GLOBALS['strGeoShowUnavailable'] = "Toon uitleveringsregels voor geotargeting zelfs als GeoIP data niet beschikbaar is";
 
 // Interface Settings
 $GLOBALS['strInventory'] = "Inventaris";
@@ -264,8 +262,8 @@ $GLOBALS['strMaintenanceOI'] = "Operatie onderhoudsinterval (minuten)";
 $GLOBALS['strPrioritySettings'] = "Prioriteitsinstellingen";
 $GLOBALS['strPriorityInstantUpdate'] = "Bijwerken van advertentie prioriteiten onmiddellijk nadat er wijzigingen aangebracht via de gebruikersinterface";
 $GLOBALS['strPriorityIntentionalOverdelivery'] = "Contract campagnes opzettelijk extra uitleveren<br />(% meer-uitlevering)";
-$GLOBALS['strDefaultImpConWindow'] = "Standaard maximaal tijdsverloop tussen vertoning en connectie (seconden)";
-$GLOBALS['strDefaultCliConWindow'] = "Standaard maximaal tijdsverloop tussen klik en connectie (seconden)";
+$GLOBALS['strDefaultImpConvWindow'] = "Standaard maximaal tijdsverloop tussen vertoning en conversie (seconden)";
+$GLOBALS['strDefaultCliConvWindow'] = "Standaard maximaal tijdsverloop tussen klik en conversie (seconden)";
 $GLOBALS['strAdminEmailHeaders'] = "Voeg de volgende header toe aan elke e-mail bericht verzonden door {$PRODUCT_NAME}";
 $GLOBALS['strWarnLimit'] = "Stuur een waarschuwing als de resterende impressies minder zijn dan hier gespecificeerd";
 $GLOBALS['strWarnLimitDays'] = "Stuur een waarschuwing wanneer het aantal overgebleven dagen minder is dan het hier opgegeven";
